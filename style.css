@@ -1,0 +1,253 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.02em;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    width: 10%;
+    background-color: rgba(231, 231, 231, 0.4);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li {
+    text-align: center;
+}
+
+li:last-child {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+#second-last {
+    position: absolute;
+    bottom: 3.5em;
+    width: 100%;
+    color: red;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.container {
+    margin: 2% 2% 0 12%;
+    min-height: 90vh;
+}
+
+.alert {
+    margin: 2% 2% 0 12%;
+}
+
+.container h1 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    margin: 0 0 0 17%;
+}
+
+input {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: .75em;
+    border: none;
+    border-radius: 5px;
+    background: rgb(231, 231, 231, 0.4);
+}
+
+button[type=submit],
+button[type=reset] {
+    width: 21%;
+    font-family: 'Raleway', sans-serif;
+    font-size: .75em;
+    color: white;
+    background: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+button[type=reset] {
+    background: salmon;
+}
+
+button[type=submit]:hover,
+button[type=reset]:hover {
+    background: lightskyblue;
+    color: black;
+}
+
+button[type=reset]:hover {
+    background: lightpink;
+    color: black;
+}
+
+.uploadbutton::-webkit-file-upload-button,
+input[type=submit] {
+    font-family: 'Raleway', sans-serif;
+    font-size: .75em;
+    color: white;
+    background: #428bca;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 7px;
+}
+
+.uploadbutton::-webkit-file-upload-button:hover,
+input[type=submit]:hover {
+    color: black;
+    background: #5bc0de;
+}
+
+.action {
+    text-align: center;
+}
+
+.tftable {
+    font-size: 12px;
+    color: #333333;
+    width: 100%;
+    /* border-width: 1px; */
+    border: none;
+    border-color: #729ea5;
+    /* border-collapse: collapse; */
+    border-spacing: 0;
+}
+
+.tftable th {
+    font-size: 1.25em;
+    background-color: #acc8cc;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+    text-align: left;
+}
+
+.tftable tr {
+    background-color: #d4e3e5;
+}
+
+.tftable td {
+    font-size: 1.5em;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #729ea5;
+}
+
+.tftable tr:hover {
+    background-color: #ffffff;
+}
+
+.tftable td img {
+    border: 1px solid #729ea5;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.tftable td input[type=submit] {
+    background: #729ea5;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.tftable td input[type=submit]:hover {
+    background: #9dd5dd;
+}
+
+th:first-child {
+    border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 6px 0 0;
+}
+
+th:only-child {
+    border-radius: 6px 6px 0 0;
+}
+
+.qty,
+.cost {
+    text-align: center;
+    width: 70px;
+}
+
+.description {
+    width: 350px;
+}
+
+.prod_image {
+    width: 125px;
+    text-align: center;
+}
+
+.action {
+    width: 50px;
+}
+
+.timestamp {
+    font-size: 11px;
+}
+
+.pass-change {
+    width: 35%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.row {
+    width: 100%;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.row label {
+    font-size: 0.9em;
+}
+
+.first-row {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.first-row label:last-of-type {
+    width: 200px;
+    margin-left: 40px;
+    color: red;
+}
+
+.row input {
+    width: 200px;
+}
+
+#buttons {
+    text-align: center;
+}

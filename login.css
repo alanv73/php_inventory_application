@@ -1,0 +1,100 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("images/inventory-bg.jpg");
+}
+
+h1 {
+    margin: 0;
+}
+
+.login-form {
+    margin: 0 !important;
+    width: 100%;
+    height: 100vh;
+    background: url("images/inventory-bg.jpg");
+}
+
+.form-div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    border-radius: 15px;
+    width: 50%;
+    padding: 20px 20px;
+}
+
+form {
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+input {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: .75em;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=text],
+.pword-login {
+    width: 200px;
+}
+
+.pword-login {
+    margin-left: 80px;
+}
+
+button[type=submit],
+button[type=reset] {
+    width: 40%;
+    font-family: 'Raleway', sans-serif;
+    font-size: .75em;
+    color: white;
+    background: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+button[type=reset] {
+    background: salmon;
+}
+
+button[type=submit]:hover,
+button[type=reset]:hover {
+    background: lightskyblue;
+    color: black;
+}
+
+button[type=reset]:hover {
+    background: lightpink;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+
+.reg-but {
+    display: inline-block;
+}
+
+.col-5 {
+    font-size: .85em;
+}
